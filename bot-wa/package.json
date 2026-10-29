@@ -1,0 +1,17 @@
+{
+  "name": "catat-duit-bot-wa",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot Webhook Server untuk CatatDuit Expense Tracker",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test-chat": "node test-chat.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.48.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
